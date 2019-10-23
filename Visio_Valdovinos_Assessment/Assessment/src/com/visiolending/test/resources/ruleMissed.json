@@ -1,0 +1,32 @@
+[
+{
+    "parameter": "person's state",
+    "condition": "equals",
+    "value":"Florida",
+    "action": "disqualified"
+ },
+ {
+    "parameter": "person's credit score",
+    "condition": "equals or greater than",
+    "value":"720",
+    "action": "subtract .3 from interest rate"
+  },
+  {
+    "parameter": "person's credit score",
+    "condition": "less than",
+    "value":"720",
+    "action": "add .5 to interest rate"
+  },
+  {
+    "parameter": "product name",
+    "condition": "equals",
+    "value":"7-1 ARM",
+    "action": "add .5 to interest rate"
+  },
+  {
+    "parameter": "person's imagination",
+    "condition": "over than",
+    "value":"9000",
+    "action": "add .10 to interest rate"
+  }
+]

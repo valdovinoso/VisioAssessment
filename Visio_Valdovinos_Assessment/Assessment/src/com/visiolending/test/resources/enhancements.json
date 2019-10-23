@@ -1,0 +1,8 @@
+[
+{
+    "parameter": "product term year",
+    "condition": "greater than",
+    "value":"15",
+    "action": "add .7 to interest rate"
+  }
+]
